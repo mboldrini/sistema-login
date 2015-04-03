@@ -24,9 +24,9 @@ body{
 	padding-top: 10px;
 }
 .textArea{
-	width: 80%;
+	width: 90%;
 	height: 25px;
-	margin-left: 10%;
+	margin-left: 5%;
 	border: thin solid #f1f1f1;
 	border-radius: 0.5em;
 }
