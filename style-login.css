@@ -10,7 +10,7 @@ body{
 }
 #login{
 	width: 280px;
-	height: 170px;
+	height: auto;
 	display: block;
 	margin: 0px auto;
 	position: relative;
@@ -37,7 +37,7 @@ body{
 	-moz-box-shadow: 0 0 10px #5698c5;
 }
 .labelText{
-	padding: 0 0 0 10%;
+	padding: 0 0 0 5%;
 }
 .submit{
 	width: 80%;
