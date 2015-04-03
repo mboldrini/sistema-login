@@ -36,6 +36,7 @@
 					<label for="ativo" class="labelText fleft">Ativo:</label>
 					<input type="text" id="ativo" class="textArea bradius" name="nivel" placeholder="Usuário ativo" />
 				</p>
+				:)
 				
 				<input type="submit" class="submit" value="Cadastro" />
 
