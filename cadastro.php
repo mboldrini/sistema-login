@@ -31,6 +31,11 @@
 					<label for="nivel" class="labelText fleft">Nivel:</label>
 					<input type="text" id="nivel" class="textArea bradius" name="nivel" placeholder="Nivel de acesso" />
 				</p>
+
+				<p>
+					<label for="ativo" class="labelText">Email:</label>
+					<input type="text" id="ativo" class="textArea bradius" name="ativo" placeholder="Usuário ativo" />
+				</p>
 				
 				<input type="submit" class="submit" value="Cadastro" />
 
