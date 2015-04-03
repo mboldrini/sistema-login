@@ -1,0 +1,73 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+	outline: none;
+	list-style-type: none;
+	text-decoration: none;
+}
+body{
+	background-color: #0e6dad;
+}
+#login{
+	width: 280px;
+	height: 170px;
+	display: block;
+	margin: 0px auto;
+	position: relative;
+	margin-top: 200px;
+	border: 1px solid #267bb5;
+	background-color: #FFFFFF;
+	border-radius: 0.5em;
+}
+#login label{
+	display: block;
+	padding-top: 10px;
+}
+.textArea{
+	width: 80%;
+	height: 25px;
+	margin-left: 10%;
+	border: thin solid #f1f1f1;
+	border-radius: 0.5em;
+}
+.textArea:focus{
+	border: thin solid #0e6dad;
+	box-shadow: 0 0 10px #5698c5;
+	-webkit-box-shadow: 0 0 10px #5698c5;
+	-moz-box-shadow: 0 0 10px #5698c5;
+}
+.labelText{
+	padding: 0 0 0 10%;
+}
+.submit{
+	width: 80%;
+	margin: 10px 10% 10% 10%;
+	height: 30px;
+	border: none;
+	cursor:pointer;
+	border-radius: 0.5em;
+	background-color: #267bb5;
+	border: thin solid #256C9D;
+}
+.submit:hover{
+	background-color: #469CD5;
+	border: thin solid #1B7EC1;
+}
+
+
+/* CLasses de herança */
+.bradius{
+	border-radius: 3px;
+}
+.fleft{
+	float: left;
+}
+.fright{
+	float: right;
+}
+/* Multiplos extilos */
+.textArea, .textArea:focus, .labelText, .submit{
+	transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+}
