@@ -3,7 +3,7 @@
 	class db{
 
 		public function conectar(){
-			$host = "localhost:8081";
+			$host = "localhost";
 			$user = "root";
 			$pass = "";
 			$dbname = "sistema_login";

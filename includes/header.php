@@ -9,4 +9,12 @@ include("./classes/db.class.php");
 	echo mysql_num_rows($query);
 	
 
+	// Metodo de cadastrao
+	if(isset($_GET["acao"])){
+		$acao = $_GET["acao"];
+		if($acao == "cadastrar"){{
+			$nome = $_POST["nome"];
+		}}
+	}
+
  ?>
